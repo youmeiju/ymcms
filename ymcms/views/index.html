@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理页面</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+
+</head>
+<body>
+
+    <div class="header">
+        <a href="#" class="logo fl"><img src="/static/img/logo.png" alt="logo"></a>
+        <a href="#" class="logout fr">退 出</a>
+    </div>
+
+    <div class="side_bar">
+        <div class="user_info">
+            <img src="/static/img/person.png" alt="张大山">
+            <p>欢迎你 <em>李雷</em></p>
+        </div>
+
+        <div class="menu_con">
+            <div class="first_menu active"><a href="javascript:;" class="icon02">商品管理</a></div>
+            <ul class="sub_menu show">
+                <li><a href="#" class="icon031">商品列表</a></li>
+                <li><a href="#" class="icon032">添加商品</a></li>
+                <li><a href="#" class="icon034">添加分类</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main_body" id="main_body">
+        <div class="breadcrub">
+            当前位置：商品管理>商品列表
+        </div>
+        <div class="pannel">
+{{/*            <span class="sel_label">请选择文章分类：</span>
+            <select name="select" id="select" class="sel_opt">
+                <option selected="true">财经新闻</option>
+                <option>体育新闻</option>
+                <option>科技新闻</option>
+            </select>*/}}
+
+            <table class="common_table">
+                <tr>
+                    <th width="20%">商品名称</th>
+                    <th width="20%">商品分类</th>
+                    <th width="20%">商品售价</th>
+                    <th width="20%">删除</th>
+                    <th width="20%">编辑</th>
+                </tr>
+
+                {{range .Goods}}
+                <tr>
+                    <td>{{.GName}}</td>
+                    <td>{{.GMfId}}</td>
+                    <td>{{.ShopPrice}}</td>
+                    <td><a href="#" class="dels">删除</a></td>
+                    <td><a href="/update?goodsId={{.Id}}">编辑</a></td>
+                </tr>
+                {{end}}
+            </table>
+
+            <ul class="pagenation">
+                <li><a href="/index?pageId=1">首页</a></li>
+                <li><a href="/index?pageId={{prev .pageId}}">上一页 </a> </li>
+                <li> <a href="/index?pageId={{next .pageId .pageCount}}">下一页</a></li>
+                <li><a href="/index?pageId={{.pageCount}}">末页</a></li>
+                <li>共{{.goodsCount}}条记录/共{{.pageCount}}页/当前1页</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

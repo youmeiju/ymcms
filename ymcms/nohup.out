@@ -1,0 +1,869 @@
+2018/12/30 23:18:50.799 [1;34m[I] [asm_amd64.s:2337]  http server Running on http://:10011[0m
+2018/12/30 23:18:57.615 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    776.482µs|   match|[44m GET     [0m /     r:/[0m
+2018/12/30 23:18:57.688 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|   1.905342ms|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2018/12/30 23:19:15.533 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.995782ms|   match|[46m POST    [0m /     r:/[0m
+2018/12/30 23:19:15.607 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.164707ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/30 23:19:18.296 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.596921ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/30 23:19:21.751 [1;34m[I] [IndexController.go:164]  1535593239829.png .png [0m
+2018/12/30 23:19:21.752 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2018/12/30 23:19:21.758 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.633819ms|   match|[46m POST    [0m /update   r:/update[0m
+2018/12/30 23:19:21.806 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.871287ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/30 23:19:23.146 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.674015ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/30 23:19:26.622 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2018/12/30 23:19:26.622 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2018/12/30 23:19:26.628 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.398593ms|   match|[46m POST    [0m /update   r:/update[0m
+2018/12/30 23:19:26.691 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.276839ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/30 23:19:28.548 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.552099ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/30 23:19:30.746 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2018/12/30 23:19:30.746 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2018/12/30 23:19:30.755 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   8.983965ms|   match|[46m POST    [0m /update   r:/update[0m
+2018/12/30 23:19:31.105 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.155635ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/30 23:19:32.791 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.572782ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/30 23:32:00.600 [1;44m[D] [server.go:2619]  |183.194.170.158|[42m 200 [0m|    615.403µs|   match|[44m GET     [0m /     r:/[0m
+2018/12/30 23:32:01.157 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    345.681µs|   match|[44m GET     [0m /static/css/main.css[0m
+2018/12/30 23:32:01.157 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    112.472µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2018/12/30 23:32:01.248 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    538.334µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2018/12/30 23:32:01.249 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    351.264µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2018/12/30 23:32:49.684 [1;44m[D] [server.go:2619]  |   112.65.61.54|[42m 200 [0m|    622.797µs|   match|[44m GET     [0m /     r:/[0m
+2018/12/30 23:32:49.897 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    102.979µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2018/12/30 23:32:49.938 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     118.42µs|   match|[44m GET     [0m /static/css/main.css[0m
+2018/12/30 23:32:50.036 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    484.538µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2018/12/30 23:32:50.040 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|     312.49µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2018/12/30 23:32:59.105 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    642.779µs|   match|[44m GET     [0m /     r:/[0m
+2018/12/31 15:29:11.106 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|    567.059µs|   match|[44m GET     [0m /     r:/[0m
+2018/12/31 15:29:11.248 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     80.767µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2018/12/31 15:29:11.314 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     30.152µs|   match|[44m GET     [0m /static/css/main.css[0m
+2018/12/31 15:29:11.433 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     38.119µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2018/12/31 15:29:11.468 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    261.054µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2018/12/31 15:29:20.977 [1;31m[E] [UserController.go:48]  密码错误，请修正后重试 [0m
+2018/12/31 15:29:20.977 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|    7.34762ms|   match|[46m POST    [0m /     r:/[0m
+2018/12/31 15:29:38.420 [1;44m[D] [server.go:2619]  |   112.65.61.24|[47m 302 [0m|   2.492033ms|   match|[46m POST    [0m /     r:/[0m
+2018/12/31 15:29:38.485 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|   3.595499ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/31 15:29:38.585 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    187.259µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2018/12/31 15:29:38.594 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|    351.006µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2018/12/31 15:29:38.599 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    148.975µs|   match|[44m GET     [0m /static/img/person.png[0m
+2018/12/31 15:29:38.869 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    166.979µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2018/12/31 15:29:46.841 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|   3.180996ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/31 15:30:11.011 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    799.234µs|   match|[44m GET     [0m /     r:/[0m
+2018/12/31 15:30:16.877 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|   3.302916ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/31 15:30:18.378 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|    3.72077ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/31 15:30:38.117 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.764948ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/31 15:30:39.162 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    252.337µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2018/12/31 15:30:46.058 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.152739ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/31 15:31:17.272 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.61207ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/31 15:31:17.633 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    204.475µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2018/12/31 15:31:18.067 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.751947ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/31 15:31:18.941 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    233.805µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2018/12/31 16:24:48.305 [1;44m[D] [server.go:2619]  |   112.65.61.24|[47m 302 [0m|   2.671088ms|   match|[46m POST    [0m /     r:/[0m
+2018/12/31 16:24:48.439 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|   3.455819ms|   match|[44m GET     [0m /index   r:/index[0m
+2018/12/31 16:25:18.875 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|   3.271196ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/31 16:25:31.541 [1;44m[D] [server.go:2619]  |   112.65.61.24|[42m 200 [0m|    668.174µs|   match|[44m GET     [0m /     r:/[0m
+2018/12/31 16:26:18.231 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.098402ms|   match|[44m GET     [0m /update   r:/update[0m
+2018/12/31 17:19:43.848 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|      651.7µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/01 20:52:10.218 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    729.215µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 14:56:42.282 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     653.35µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 14:56:42.363 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    122.156µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/02 14:56:42.384 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    135.379µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 14:56:42.560 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    592.709µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/01/02 14:57:41.315 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    621.689µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:00:34.420 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:00:34.420 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   6.303983ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:00:39.033 [1;31m[E] [UserController.go:23]  账号或密码不能为空 [0m
+2019/01/02 15:00:39.034 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    770.629µs|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:01:00.607 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:01:00.608 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.931156ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:01:26.802 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:01:26.802 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.776643ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:01:29.884 [1;31m[E] [UserController.go:23]  账号或密码不能为空 [0m
+2019/01/02 15:01:29.885 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    643.099µs|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:01:52.453 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    323.706µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/02 15:01:52.726 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    530.014µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:01:52.782 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     82.299µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/02 15:01:52.783 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    102.991µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:01:52.969 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    483.577µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/01/02 15:02:26.361 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:02:26.361 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.763661ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:02:52.057 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|      591.3µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:03:58.997 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:03:58.997 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.736931ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:04:45.697 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:04:45.697 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.834317ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:05:24.017 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:05:24.017 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.815779ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:09:01.502 [1;31m[E] [UserController.go:43]  账号不存在 <QuerySeter> no row found [0m
+2019/01/02 15:09:01.502 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.823913ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:09:18.082 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    617.133µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:09:18.149 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     82.926µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/02 15:09:18.162 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     37.758µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:09:18.213 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     69.997µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/01/02 15:09:18.222 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    309.167µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/02 15:09:25.988 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.348661ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:09:26.053 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.65806ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:09:26.129 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     75.553µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/02 15:09:26.133 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     37.769µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/02 15:09:26.197 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|    107.853µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/02 15:09:26.199 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     50.687µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/02 15:10:13.939 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.455966ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:10:15.607 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.404667ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:10:16.777 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.376156ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:10:17.880 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     3.6036ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:10:19.180 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.392902ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:10:20.357 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.674658ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:11:16.156 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.532912ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:11:18.213 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.550873ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:11:18.338 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    322.319µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/02 15:11:20.100 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    599.126µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:11:20.147 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     92.338µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/02 15:11:20.161 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    112.131µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:11:20.460 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    553.805µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/01/02 15:11:21.055 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    351.012µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/02 15:11:37.506 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.242147ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:11:37.544 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.200196ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:11:37.600 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    180.578µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/02 15:11:37.605 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     57.849µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/02 15:11:37.627 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    100.102µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/02 15:11:37.788 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     83.178µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/02 15:12:09.164 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.744381ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:12:28.820 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.906967ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:12:32.571 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.817356ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:12:36.256 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.921847ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:14:40.000 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    544.894µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:14:40.363 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    392.069µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/02 15:14:59.591 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.295905ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:14:59.610 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.171334ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:17:05.301 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.859743ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:18:54.133 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    594.166µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:19:08.585 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.336494ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:19:08.641 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.317734ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:19:08.696 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     233.77µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/02 15:19:08.720 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     89.023µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/02 15:19:08.742 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    104.331µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/02 15:19:08.848 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    147.974µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/02 15:19:15.992 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.921751ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:20:09.110 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.61586ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:20:09.942 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    253.075µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/02 15:20:18.111 [1;31m[E] [IndexController.go:61]  获取商品id失败 strconv.Atoi: parsing "": invalid syntax [0m
+2019/01/02 15:20:18.111 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    174.457µs|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:22:53.561 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    612.905µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:22:55.243 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    2.31866ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:22:55.323 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.291846ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:22:56.672 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.769615ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:23:03.978 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:23:03.978 [1;34m[I] [IndexController.go:164]  1535558665180.png .png [0m
+2019/01/02 15:23:03.983 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.262414ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:23:04.043 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.102892ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:23:05.202 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.82368ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:23:36.045 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.85065ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:23:42.003 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.817443ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:23:45.180 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.86861ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:23:57.149 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:23:57.149 [1;34m[I] [IndexController.go:164]  rishidiban1.jpg .jpg [0m
+2019/01/02 15:23:57.156 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.530573ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:23:57.193 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.419671ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:23:58.763 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.976779ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:24:11.680 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    540.317µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 15:24:27.940 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.389485ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 15:24:27.998 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.375681ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:24:44.409 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.793281ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:24:44.977 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.814533ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:24:46.717 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:24:46.717 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:24:46.722 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.169555ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:24:46.781 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.076621ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:24:48.428 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.807268ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:24:49.718 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.87677ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:24:49.978 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.896156ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:24:53.687 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:24:53.687 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:24:53.692 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.238054ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:24:53.742 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     3.2427ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:25:13.769 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.902589ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:26:42.117 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.914644ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:35:18.916 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.949641ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:35:20.143 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.08096ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:51:10.331 [1;34m[I] [IndexController.go:164]  精细擦窗.jpg .jpg [0m
+2019/01/02 15:51:10.331 [1;34m[I] [IndexController.go:164]  精细擦窗.jpg .jpg [0m
+2019/01/02 15:51:10.337 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   8.920215ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:51:10.353 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.028355ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:51:16.822 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.965182ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:52:25.290 [1;34m[I] [IndexController.go:164]  精细擦窗.jpg .jpg [0m
+2019/01/02 15:52:25.290 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:52:25.295 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.297825ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:52:25.316 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.126704ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:52:27.459 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.018611ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:52:54.943 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:52:54.943 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:52:54.948 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.079334ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:52:54.972 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.171228ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:52:59.045 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.810321ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:53:20.427 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:53:20.427 [1;34m[I] [IndexController.go:164]  地板打蜡.jpg .jpg [0m
+2019/01/02 15:53:20.432 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.958079ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:53:20.454 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.157407ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:53:22.608 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.883446ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:53:26.563 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:53:26.563 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:53:26.568 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.951182ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:53:26.590 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.145235ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:53:30.210 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.899101ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:53:52.508 [1;34m[I] [IndexController.go:164]  日式地板保养.jpg .jpg [0m
+2019/01/02 15:53:52.508 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:53:52.513 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.143547ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:53:52.534 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.020379ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:54:21.808 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.773392ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:54:21.875 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    103.977µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/02 15:54:21.879 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    163.548µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:54:21.941 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    168.569µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/02 15:54:21.942 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     78.204µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/02 15:54:21.958 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    118.746µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/02 15:54:23.447 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    318.349µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/02 15:56:34.032 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.862122ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:56:59.547 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.998792ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:56:59.573 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     126.81µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:56:59.573 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     40.345µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/02 15:56:59.607 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     88.123µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/02 15:56:59.608 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     83.045µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/02 15:56:59.649 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    129.475µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/02 15:57:28.293 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:57:28.293 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:57:28.298 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.198627ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:57:28.367 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.459757ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:57:28.415 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     78.115µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:57:30.245 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.869922ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:58:03.069 [1;34m[I] [IndexController.go:164]  除尘除螨.jpg .jpg [0m
+2019/01/02 15:58:03.070 [1;34m[I] [IndexController.go:164]  除尘除螨1.jpg .jpg [0m
+2019/01/02 15:58:03.077 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   9.005914ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:58:03.100 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.019683ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:58:03.151 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     52.486µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:58:05.158 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.825607ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:58:26.045 [1;34m[I] [IndexController.go:164]  除尘除螨.jpg .jpg [0m
+2019/01/02 15:58:26.045 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:58:26.050 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.272049ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:58:26.072 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.116665ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:58:28.258 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.934097ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:58:28.325 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     60.789µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:58:33.862 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:58:33.862 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:58:33.867 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.115522ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:58:33.891 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.094507ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:58:35.763 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.855396ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:58:56.814 [1;34m[I] [IndexController.go:164]  厨房蒸汽保洁4h.jpg .jpg [0m
+2019/01/02 15:58:56.814 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:58:56.819 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.343022ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:58:56.842 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.02284ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:58:56.870 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     50.729µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:58:59.257 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.855931ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:59:20.005 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:59:20.005 [1;34m[I] [IndexController.go:164]  厨房蒸汽保洁.jpg .jpg [0m
+2019/01/02 15:59:20.012 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   8.872959ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:59:20.034 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.026839ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:59:22.184 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.90444ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:59:34.390 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 15:59:34.390 [1;34m[I] [IndexController.go:164]  厨房蒸汽保洁4h.jpg .jpg [0m
+2019/01/02 15:59:34.396 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    8.12566ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 15:59:34.416 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.100069ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 15:59:34.475 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     48.968µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 15:59:37.354 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.853726ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 15:59:37.408 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.422567ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:00:02.911 [1;34m[I] [IndexController.go:164]  浴室封面.jpg .jpg [0m
+2019/01/02 16:00:02.911 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:00:02.916 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.318675ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:00:02.937 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.063364ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:00:05.526 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.865711ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:00:05.557 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.14308ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:00:18.581 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:00:18.581 [1;34m[I] [IndexController.go:164]  浴室.jpg .jpg [0m
+2019/01/02 16:00:18.586 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.052862ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:00:18.608 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.071063ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:00:18.651 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     67.812µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:00:22.105 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.92495ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:00:24.980 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:00:24.980 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:00:24.994 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   14.28272ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:00:25.017 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.186169ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:00:27.158 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.86267ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:00:27.207 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.72815ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:00:55.413 [1;34m[I] [IndexController.go:164]  单双开门冰箱.jpg .jpg [0m
+2019/01/02 16:00:55.413 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:00:55.418 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.248732ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:00:55.435 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.108894ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:00:55.470 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     87.217µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:00:57.480 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.916378ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:00:57.554 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.357327ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:01:15.215 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:01:15.215 [1;34m[I] [IndexController.go:164]  冰箱.jpg .jpg [0m
+2019/01/02 16:01:15.220 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.489779ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:01:15.237 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.044895ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:01:17.221 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.910664ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:01:19.490 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:01:19.490 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:01:19.501 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|  11.528109ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:01:19.524 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.163793ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:01:21.357 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.96423ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:01:33.987 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:01:33.987 [1;34m[I] [IndexController.go:164]  空调.jpg .jpg [0m
+2019/01/02 16:01:33.992 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.996166ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:01:34.009 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.409135ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:01:36.655 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.717984ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:01:36.697 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     56.169µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:02:08.815 [1;34m[I] [IndexController.go:164]  空调挂机.jpg .jpg [0m
+2019/01/02 16:02:08.815 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:02:08.820 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.232852ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:02:08.839 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.129013ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:02:11.132 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.841296ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:02:20.481 [1;34m[I] [IndexController.go:164]  空调柜机.jpg .jpg [0m
+2019/01/02 16:02:20.482 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:02:20.487 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.381757ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:02:20.505 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.093841ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:02:23.176 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.759932ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:02:23.237 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     59.483µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:02:38.046 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:02:38.046 [1;34m[I] [IndexController.go:164]  空调.jpg .jpg [0m
+2019/01/02 16:02:38.052 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.029235ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:02:38.071 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.029415ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:02:39.991 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.967097ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:02:41.969 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:02:41.969 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:02:41.974 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.991928ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:02:41.995 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.23982ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:02:43.708 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.85381ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:07:44.513 [1;34m[I] [IndexController.go:164]  套餐1.jpg .jpg [0m
+2019/01/02 16:07:44.513 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:07:44.518 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    5.21049ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:07:44.536 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.240198ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:07:44.561 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     58.843µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:07:48.493 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.778208ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:09:30.716 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    554.069µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 16:09:30.758 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     83.844µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:09:51.920 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.354449ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 16:09:51.982 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.415631ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:09:54.447 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.806872ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:10:07.764 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:10:07.764 [1;34m[I] [IndexController.go:164]  套餐3.jpg .jpg [0m
+2019/01/02 16:10:07.770 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.336902ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:10:07.788 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.075089ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:10:10.232 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.954534ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:10:23.000 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:10:23.000 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:10:23.022 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|  21.925934ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:10:23.043 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.038648ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:10:25.493 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.980437ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:11:29.595 [1;34m[I] [IndexController.go:164]  套餐1.jpg .jpg [0m
+2019/01/02 16:11:29.595 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:11:29.601 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.428476ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:11:29.620 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.05121ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:11:31.430 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.952599ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:12:09.417 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:12:09.417 [1;34m[I] [IndexController.go:164]  套餐3.jpg .jpg [0m
+2019/01/02 16:12:09.422 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.471073ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:12:09.441 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.08322ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:12:09.476 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     48.773µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:12:25.963 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.898422ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:13:16.214 [1;34m[I] [IndexController.go:164]  单双开门冰箱.jpg .jpg [0m
+2019/01/02 16:13:16.214 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:13:16.223 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    9.65282ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:13:16.241 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.229121ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:13:19.797 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.773252ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:13:35.512 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:13:35.512 [1;34m[I] [IndexController.go:164]  冰箱.jpg .jpg [0m
+2019/01/02 16:13:35.517 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.117166ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:13:35.536 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.151893ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:13:43.552 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.873193ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:13:55.856 [1;34m[I] [IndexController.go:164]  对开门冰箱.jpg .jpg [0m
+2019/01/02 16:13:55.856 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:13:55.861 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.203944ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:13:55.880 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.014938ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:14:02.751 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.77558ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:14:02.808 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     58.949µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:14:14.742 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:14:14.742 [1;34m[I] [IndexController.go:164]  冰箱.jpg .jpg [0m
+2019/01/02 16:14:14.747 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.079004ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:14:14.765 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.100644ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:14:17.420 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.876585ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:14:42.329 [1;34m[I] [IndexController.go:164]  波轮洗衣机.jpg .jpg [0m
+2019/01/02 16:14:42.329 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:14:42.334 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.546252ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:14:42.354 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.049256ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:14:45.144 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.740085ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:15:09.807 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.872971ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:15:09.880 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|      56.17µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:15:13.286 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:15:13.286 [1;34m[I] [IndexController.go:164]  洗衣机.jpg .jpg [0m
+2019/01/02 16:15:13.291 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    7.00548ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:15:13.310 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.049333ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:15:58.303 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.151532ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:16:07.571 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.809729ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:16:07.630 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     62.201µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:16:21.705 [1;34m[I] [IndexController.go:164]  滚筒洗衣机.jpg .jpg [0m
+2019/01/02 16:16:21.705 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:16:21.710 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.364484ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:16:21.745 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.193614ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:16:25.529 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.967138ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:16:27.376 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.892946ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:16:42.858 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:16:42.858 [1;34m[I] [IndexController.go:164]  洗衣机.jpg .jpg [0m
+2019/01/02 16:16:42.864 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.563815ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:16:42.882 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.097457ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:16:48.404 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.845597ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:17:18.730 [1;34m[I] [IndexController.go:164]  套餐1.jpg .jpg [0m
+2019/01/02 16:17:18.730 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:17:18.735 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.744439ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:17:18.754 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.047054ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:17:21.143 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.908384ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:18:03.964 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     578.14µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 16:18:19.673 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.357405ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 16:18:19.722 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.124315ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:18:19.776 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     54.947µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:18:22.714 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.78632ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:18:36.528 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:18:36.528 [1;34m[I] [IndexController.go:164]  套餐3.jpg .jpg [0m
+2019/01/02 16:18:36.534 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   8.147845ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:18:36.555 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.035216ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:18:39.315 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.82678ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:18:43.502 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:18:43.502 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:18:43.507 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.774676ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:18:43.529 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.739661ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:18:45.687 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.799776ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:18:48.198 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:18:48.198 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:18:48.203 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.029215ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:18:48.225 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.019651ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:18:49.898 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.677782ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:19:09.194 [1;34m[I] [IndexController.go:164]  套餐1.jpg .jpg [0m
+2019/01/02 16:19:09.195 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:19:09.199 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.299201ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:19:09.222 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.045413ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:19:13.913 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.850084ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:19:40.768 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:19:40.768 [1;34m[I] [IndexController.go:164]  套餐3.jpg .jpg [0m
+2019/01/02 16:19:40.773 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.764365ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:19:40.795 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.022709ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:19:44.280 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.420035ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:19:47.749 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:19:47.749 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:19:47.753 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.947643ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:19:47.775 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.242357ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:19:50.295 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.848076ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:19:59.097 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:19:59.097 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:19:59.102 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.093202ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:19:59.123 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.195767ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:20:39.969 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.280887ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:20:46.963 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.783693ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:20:46.997 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|      68.39µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:21:50.049 [1;34m[I] [IndexController.go:164]  油烟机.jpg .jpg [0m
+2019/01/02 16:21:50.050 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:21:50.054 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.045978ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:21:50.077 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.061917ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:21:53.953 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.26722ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:21:55.837 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.85291ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:22:10.049 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:22:10.049 [1;34m[I] [IndexController.go:164]  油烟机.jpg .jpg [0m
+2019/01/02 16:22:10.060 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   11.95716ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:22:10.089 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.118765ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:22:13.902 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     3.1407ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:22:15.848 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.76837ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:22:20.702 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:22:20.702 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:22:20.707 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|     5.0399ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:22:20.731 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.054281ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:22:24.902 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.182409ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:22:36.608 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.847473ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:22:55.520 [1;34m[I] [IndexController.go:164]  欧式油烟机.jpg .jpg [0m
+2019/01/02 16:22:55.520 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:22:55.539 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|  19.564639ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:22:55.561 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.94787ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:22:59.044 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.067955ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:23:01.045 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.775132ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:23:14.082 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:23:14.082 [1;34m[I] [IndexController.go:164]  油烟机.jpg .jpg [0m
+2019/01/02 16:23:14.087 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.191478ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:23:14.108 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.082939ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:23:17.117 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.17946ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:23:19.164 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.89034ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:23:36.680 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:23:36.680 [1;34m[I] [IndexController.go:164]  油烟机.jpg .jpg [0m
+2019/01/02 16:23:36.685 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.380685ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:23:36.706 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.037771ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:23:36.738 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     50.773µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:23:40.256 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.369889ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:23:43.572 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.885988ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:23:57.709 [1;34m[I] [IndexController.go:164]  油烟机.jpg .jpg [0m
+2019/01/02 16:23:57.709 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:23:57.714 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.234785ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:23:57.739 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.021041ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:24:01.037 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.219107ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:24:09.238 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.865226ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:24:28.174 [1;34m[I] [IndexController.go:164]  套餐2.jpg .jpg [0m
+2019/01/02 16:24:28.174 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:24:28.179 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.098135ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:24:28.201 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.027864ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:24:32.768 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.293338ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:24:35.708 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.892561ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:25:15.263 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:25:15.263 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:25:15.271 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   8.299781ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:25:15.297 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.136318ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:25:19.738 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.14246ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:25:21.427 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.906183ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:26:51.866 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:26:51.866 [1;34m[I] [IndexController.go:164]  套餐3.jpg .jpg [0m
+2019/01/02 16:26:51.872 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    7.38249ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:26:51.890 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.074716ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:26:51.933 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     52.239µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:26:55.180 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.322647ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:26:57.457 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.810185ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:27:04.749 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:27:04.749 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:27:04.754 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.962121ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:27:04.787 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.345071ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:27:35.555 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.202117ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:27:39.271 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.78279ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:28:19.407 [1;34m[I] [IndexController.go:164]  自来水管道清洗.jpg .jpg [0m
+2019/01/02 16:28:19.407 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:28:19.412 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.131595ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:28:19.434 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.024594ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:28:22.712 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.256897ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:28:24.657 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.008357ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:30:24.415 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    584.551µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 16:30:24.440 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     66.511µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:31:42.746 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.473832ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 16:31:42.779 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.373016ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:31:46.100 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.164746ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:31:48.180 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.855549ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:36:10.581 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:36:10.581 [1;34m[I] [IndexController.go:164]  管道清洗.jpg .jpg [0m
+2019/01/02 16:36:10.587 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.081303ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:36:10.605 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.011916ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:36:10.653 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     49.149µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:36:31.256 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.321125ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:36:36.704 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.836607ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:37:15.731 [1;34m[I] [IndexController.go:164]  自来水管道清洗.jpg .jpg [0m
+2019/01/02 16:37:15.731 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:37:15.736 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.095851ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:37:15.755 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.156819ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:37:18.245 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.267574ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:37:20.066 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.820362ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:37:27.033 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:37:27.033 [1;34m[I] [IndexController.go:164]  管道清洗.jpg .jpg [0m
+2019/01/02 16:37:27.038 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.870345ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:37:27.056 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.072825ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:37:31.205 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.222094ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:37:32.541 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.882804ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:42:13.655 [1;34m[I] [IndexController.go:164]  地暖管道清洗.jpg .jpg [0m
+2019/01/02 16:42:13.655 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:42:13.660 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.104065ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:42:13.681 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.088138ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:42:13.716 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|      52.41µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:42:17.753 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.086273ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:42:21.387 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.735554ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:42:26.716 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:42:26.716 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:42:26.722 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    5.73827ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:42:26.739 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.082062ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:42:29.865 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.070512ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:42:32.116 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.653039ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:42:39.271 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:42:39.271 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:42:39.276 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.936078ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:42:39.303 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.013698ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:43:52.399 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     2.7609ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:43:58.828 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:43:58.828 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:43:58.833 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.088145ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:43:58.857 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.111713ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:44:02.013 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.884335ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:44:13.125 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:44:13.125 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:44:13.129 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.053174ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:44:13.149 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.061978ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:44:17.614 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.74625ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:44:21.816 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:44:21.816 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:44:21.820 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.806809ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:44:21.843 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.057297ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:44:45.315 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.935981ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:45:00.326 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:45:00.326 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:45:00.331 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.077603ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:45:00.349 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.310476ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:45:10.153 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.947628ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:45:25.084 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:45:25.084 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:45:25.089 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.235988ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:45:25.113 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.771626ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:46:01.494 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.813729ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:46:24.890 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:46:24.890 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:46:24.895 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.052904ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:46:24.918 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.178467ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:46:39.553 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.807752ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:46:45.223 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:46:45.223 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:46:45.228 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.010421ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:46:45.249 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.111949ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:47:25.609 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.570165ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:47:25.645 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     72.743µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 16:47:28.884 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.853858ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 16:47:36.210 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:47:36.210 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 16:47:36.218 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.649656ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 16:47:36.235 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.176685ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 16:47:39.747 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.303681ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 17:17:46.756 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.884597ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 17:17:46.829 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     59.376µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 17:17:53.298 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 17:17:53.298 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 17:17:53.303 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.155452ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 17:17:53.319 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.232234ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 17:17:56.472 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.426144ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 17:17:59.163 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.986979ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 17:18:47.244 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 17:18:47.244 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 17:18:47.249 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.326144ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 17:18:47.272 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.196066ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 17:18:54.615 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.212223ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 17:18:56.566 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    2.95152ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 17:53:52.124 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 17:53:52.124 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 17:53:52.129 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   4.978035ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 17:53:52.148 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.219938ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 17:53:52.191 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     52.187µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 20:44:37.304 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    660.903µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 20:44:37.392 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|     85.355µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 20:44:37.462 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    356.767µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/02 21:24:03.913 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    675.189µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/02 21:24:03.982 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 304 [0m|    111.159µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/02 21:24:05.270 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   2.366224ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/02 21:24:05.326 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.573292ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 21:24:08.766 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.832962ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 21:24:13.527 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:13.527 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:13.531 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    5.06149ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 21:24:13.589 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.18721ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 21:24:15.298 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.821419ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 21:24:17.430 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:17.431 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:17.435 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.137291ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 21:24:17.486 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.402025ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 21:24:18.491 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.821355ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 21:24:20.876 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:20.876 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:20.881 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.037805ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 21:24:20.924 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.286866ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 21:24:22.394 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.855057ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 21:24:26.081 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:26.081 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:26.086 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.048672ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 21:24:26.146 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.602681ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/02 21:24:28.252 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.755333ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/02 21:24:38.109 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:38.109 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/02 21:24:38.113 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.055237ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/02 21:24:38.176 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.151894ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/04 03:53:51.949 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     649.75µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/10 16:33:52.917 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   8.512483ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/10 16:33:57.472 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    179.342µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/10 16:33:57.490 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    192.738µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/10 16:33:57.728 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    100.328µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/10 16:37:35.525 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.905759ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/10 16:37:35.562 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     64.968µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/10 16:37:35.578 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    101.614µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/10 16:37:35.677 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     124.65µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/10 16:38:39.395 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.674978ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/10 16:38:39.809 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    229.146µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/11 07:29:48.258 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    7.83377ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/11 17:15:15.526 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    647.453µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/17 17:48:49.474 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    354.854µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/01/18 16:39:22.692 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    592.355µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/18 16:39:22.734 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    157.339µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/18 16:39:22.735 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     65.491µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/18 16:39:22.873 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    581.883µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/01/18 16:39:45.026 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    6.84683ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/18 16:39:45.059 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.743483ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:39:45.140 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    235.748µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/18 16:39:45.147 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     89.329µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/18 16:39:45.174 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    123.408µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/18 16:39:45.269 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    107.781µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/18 16:40:01.653 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.787745ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:40:22.233 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    591.801µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/18 16:40:34.788 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.210339ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:40:45.072 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.893899ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:40:46.093 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:40:46.093 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:40:46.099 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.661222ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:40:46.122 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.379906ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:40:46.354 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    202.757µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/18 16:40:50.809 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.715524ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:41:11.417 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.225405ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:41:25.550 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:41:25.550 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:41:25.556 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.859537ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:41:25.577 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.612094ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:41:31.130 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.531763ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:41:34.069 [1;31m[E] [IndexController.go:61]  获取商品id失败 strconv.Atoi: parsing "": invalid syntax [0m
+2019/01/18 16:41:34.069 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    163.653µs|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:41:37.243 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.765198ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:41:44.268 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:41:44.268 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:41:44.274 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.871828ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:41:44.294 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.513078ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:41:50.152 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.491715ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:41:56.261 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.241214ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:42:05.541 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:42:05.541 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:42:05.548 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.247722ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:42:05.569 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.449922ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:42:49.776 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.885796ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:52:51.388 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.254928ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:54:33.753 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "99￥": invalid syntax [0m
+2019/01/18 16:54:33.753 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    271.785µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:54:33.771 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.68151ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:54:53.630 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.227302ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:55:30.526 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:55:30.526 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:55:30.531 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.709159ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:55:30.551 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.599292ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:55:40.284 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.207834ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:56:17.888 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:56:17.888 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/18 16:56:17.894 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.044197ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:56:17.915 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.39408ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:56:38.573 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.283501ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:57:52.545 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "169/3H": invalid syntax [0m
+2019/01/18 16:57:52.545 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    270.147µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:57:52.563 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.643566ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/18 16:58:05.132 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.255369ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/18 16:58:58.214 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "169/3H": invalid syntax [0m
+2019/01/18 16:58:58.215 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|     322.84µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/18 16:58:58.233 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.762025ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/19 12:39:29.133 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    684.236µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/19 16:06:30.259 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    611.683µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/19 16:06:48.025 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.510823ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/19 16:06:48.064 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.495023ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/19 16:07:04.221 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.106141ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/19 16:07:13.536 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/19 16:07:13.536 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/19 16:07:13.541 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.529947ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/19 16:07:13.568 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.397975ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/19 16:07:24.581 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.104307ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/19 16:07:48.698 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.563931ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/19 16:07:49.577 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    263.576µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/19 16:08:25.439 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/19 16:08:25.439 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/19 16:08:25.444 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.505149ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/19 16:08:25.467 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.174901ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/20 12:09:33.615 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    662.762µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/23 17:01:10.926 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    601.179µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/23 17:01:10.984 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     163.47µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/01/23 17:01:10.984 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     70.225µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/01/23 17:01:12.400 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    623.854µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/01/23 17:01:27.696 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.978278ms|   match|[46m POST    [0m /     r:/[0m
+2019/01/23 17:01:27.722 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.678875ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/23 17:01:27.762 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    188.054µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/23 17:01:27.763 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     79.574µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/01/23 17:01:27.778 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    144.004µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/01/23 17:01:28.406 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    180.703µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/01/23 17:01:48.931 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.630886ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/23 17:02:12.502 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    618.851µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/23 17:02:18.485 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "60/H": invalid syntax [0m
+2019/01/23 17:02:18.485 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    321.912µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/23 17:02:18.513 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.067325ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/23 17:02:26.305 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.71238ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/23 17:02:27.096 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.383043ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/23 17:02:27.325 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    211.507µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/01/23 17:02:36.370 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/23 17:02:36.370 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/23 17:02:36.382 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|  12.237108ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/23 17:02:36.404 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.627607ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/23 17:02:39.967 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.604913ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/23 17:02:49.094 [1;31m[E] [IndexController.go:61]  获取商品id失败 strconv.Atoi: parsing "": invalid syntax [0m
+2019/01/23 17:02:49.094 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    183.505µs|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/23 17:02:54.002 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "60/h": invalid syntax [0m
+2019/01/23 17:02:54.002 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    289.916µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/23 17:02:54.026 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    4.19423ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/23 17:02:58.973 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.536283ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/23 17:03:31.535 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "60/小时": invalid syntax [0m
+2019/01/23 17:03:31.535 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    286.199µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/23 17:03:31.558 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.804358ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/23 17:03:35.670 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.564934ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/01/23 17:04:01.824 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/23 17:04:01.825 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/01/23 17:04:01.831 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.718012ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/01/23 17:04:01.854 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.125471ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/23 17:04:52.360 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.086525ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/01/24 20:15:27.281 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    637.328µs|   match|[44m GET     [0m /     r:/[0m
+2019/01/25 10:28:24.593 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    348.968µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/02/20 18:56:48.933 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    315.082µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/02/23 17:13:04.493 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    528.623µs|   match|[44m GET     [0m /     r:/[0m
+2019/02/23 17:13:04.549 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    126.587µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/02/23 17:13:04.549 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    104.154µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/02/23 17:13:04.688 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    538.804µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/02/23 17:14:04.306 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    746.143µs|   match|[44m GET     [0m /     r:/[0m
+2019/02/28 10:07:30.669 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    365.445µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/03/07 13:37:04.820 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    292.955µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/03/14 13:52:33.146 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    320.474µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/03/22 13:25:45.291 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    283.739µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/03/22 15:36:29.147 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   1.232269ms|   match|[44m GET     [0m /     r:/[0m
+2019/03/22 15:36:29.189 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    102.431µs|   match|[44m GET     [0m /static/css/reset.css[0m
+2019/03/22 15:36:29.191 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    113.139µs|   match|[44m GET     [0m /static/css/main.css[0m
+2019/03/22 15:36:29.312 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    576.338µs|   match|[44m GET     [0m /static/img/login-bg.jpg[0m
+2019/03/22 15:36:43.842 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   7.034919ms|   match|[46m POST    [0m /     r:/[0m
+2019/03/22 15:36:43.876 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.466988ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:36:43.923 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     99.393µs|   match|[44m GET     [0m /static/img/logo.png[0m
+2019/03/22 15:36:43.923 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    187.794µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/03/22 15:36:43.934 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    111.238µs|   match|[44m GET     [0m /static/img/person.png[0m
+2019/03/22 15:36:44.059 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    151.971µs|   match|[44m GET     [0m /static/img/icons.png[0m
+2019/03/22 15:36:54.297 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.447433ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:37:09.161 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.212586ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 15:37:28.899 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     555.32µs|   match|[44m GET     [0m /     r:/[0m
+2019/03/22 15:37:43.164 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.572722ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:37:44.361 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    226.277µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js[0m
+2019/03/22 15:38:06.453 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:38:06.453 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:38:06.459 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.151985ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 15:38:06.489 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.224622ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:38:09.083 [1;31m[E] [IndexController.go:61]  获取商品id失败 strconv.Atoi: parsing "": invalid syntax [0m
+2019/03/22 15:38:09.083 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|     146.85µs|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 15:38:14.734 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.430195ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:38:20.967 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.076466ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 15:40:18.080 [1;34m[I] [IndexController.go:164]  0x1024a0a0副本.jpg .jpg [0m
+2019/03/22 15:40:18.080 [1;34m[I] [IndexController.go:164]  0000000000000000.jpg .jpg [0m
+2019/03/22 15:40:18.087 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|  10.852858ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 15:40:18.109 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.989381ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:40:22.530 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.497807ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:40:27.829 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.13354ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 15:41:22.615 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "0.1": invalid syntax [0m
+2019/03/22 15:41:22.615 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    255.849µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 15:41:22.650 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.434897ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:55:06.380 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.186493ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 15:55:58.420 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:55:58.421 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:55:58.426 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.871694ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 15:55:58.460 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.469502ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:57:56.210 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.091115ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 15:58:14.854 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:58:14.854 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:58:14.860 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   5.764977ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 15:58:14.884 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.464974ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:58:18.701 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.439556ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:58:48.669 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.312585ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 15:59:23.145 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:59:23.145 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 15:59:23.151 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|   6.314177ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 15:59:23.171 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     3.3574ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:59:51.396 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.311446ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 15:59:58.519 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.053884ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 16:00:17.936 [1;31m[E] [IndexController.go:88]  获取商品价格失败 strconv.Atoi: parsing "0.1": invalid syntax [0m
+2019/03/22 16:00:17.936 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    237.452µs|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 16:00:17.960 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.200512ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 16:00:21.060 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.426206ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 16:00:25.508 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    3.29933ms|   match|[44m GET     [0m /update   r:/update[0m
+2019/03/22 16:00:43.010 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 16:00:43.010 [1;31m[E] [IndexController.go:154]  http: no such file [0m
+2019/03/22 16:00:43.016 [1;44m[D] [server.go:2619]  |      127.0.0.1|[47m 302 [0m|    5.74989ms|   match|[46m POST    [0m /update   r:/update[0m
+2019/03/22 16:00:43.030 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.344673ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/22 16:00:46.016 [1;44m[D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.571329ms|   match|[44m GET     [0m /index   r:/index[0m
+2019/03/29 15:04:52.447 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    291.384µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2019/04/06 19:11:07.648 [1;44m[D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    291.743µs| nomatch|[44m GET     [0m /favicon.ico[0m
