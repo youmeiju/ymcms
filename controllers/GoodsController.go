@@ -3,8 +3,6 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	"path"
-	"time"
 )
 
 type GoodsController struct {
@@ -43,49 +41,18 @@ func (this *GoodsController)HandleAddGoods()  {
 		this.Redirect("/addGoods?msg=获取商品名称失败",302)
 		return
 	}
-	goodsImg:=UpLoad1(this,"goodsImg")
-	goodsPhoto:=UpLoad1(this,"goodsPhoto")
+	goodsImg:=UpLoad(&this.Controller,"goodsImg")
+	goodsPhoto:=UpLoad(&this.Controller,"goodsPhoto")
 	o:=orm.NewOrm()
 	typeName:=this.GetString("select")
 	var maps []orm.Params
 	o.Raw("select * from first_menu where name=?",typeName).Values(&maps)
+	a:=[]map[string]string{
+		{"1":"1"},
+		{"2":"2"},
+	}
 	o.Raw("INSERT INTO goods_info VALUES(null,?,?,?,?,?,0)",goodsName,maps[0]["id"],goodsImg,goodsPhoto,goodsPrice).Exec()
 	this.Redirect("/addGoods?msg=添加商品成功",302)
-}
-
-func UpLoad1(this *GoodsController,filePath string)(string)  {
-	file,head,err :=this.GetFile(filePath)
-	//校验数据
-	if err != nil{
-		beego.Error(err)
-		return ""
-	}
-	defer file.Close()
-	//1.文件存在覆盖的问题
-	//加密算法
-
-	//当前时间
-	fileName := time.Now().Format("2006-01-02-15-04-05")
-	ext := path.Ext(head.Filename)
-	beego.Info(head.Filename,ext)
-	//2.文件类型也需要校验
-	if ext != ".jpg" && ext != ".png" && ext != ".jpeg"{
-		beego.Error(err)
-		return ""
-	}
-	//3.文件大小校验
-	if head.Size > 5000000 {
-		beego.Error(err)
-		return ""
-	}
-
-	//把图片存起来
-	err=this.SaveToFile(filePath,"/root/go/src/NewService/img/goods/"+fileName+ext)
-	if err!=nil{
-		beego.Error(err)
-		return ""
-	}
-	return "https://service.shanghaiyoumeiju2018.com/img/goods/"+fileName+ext
 }
 
 func (this *GoodsController)ShowAddGoodsType()  {
@@ -114,8 +81,9 @@ func (this *GoodsController)DelTypes()  {
 	id:=this.GetString("id")
 	o:=orm.NewOrm()
 	var lists []orm.ParamsList
-	o.Raw("select count(id) from goods_info where g_mf_id=3;").ValuesList(&lists)
-	if lists[0][0]!=0{
+	o.Raw("select count(id) from goods_info where g_mf_id=?",id).ValuesList(&lists)
+	beego.Info(lists)
+	if lists[0][0]!="0"{
 		this.Redirect("/addType?err="+"请先删除当前分类下的商品才能删除该分类",302)
 		return
 	}

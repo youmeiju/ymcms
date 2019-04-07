@@ -4,8 +4,6 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	"math"
-	"path"
-	"time"
 	"ymcms/models"
 )
 
@@ -95,8 +93,8 @@ func (this *UpdateController)HandleUpdate()  {
 		this.Redirect("/index",302)
 		return
 	}
-	goodsImg:=UpLoad(this,"goodsImg")
-	goodsPhoto:=UpLoad(this,"goodsPhoto")
+	goodsImg:=UpLoad(&this.Controller,"goodsImg")
+	goodsPhoto:=UpLoad(&this.Controller,"goodsPhoto")
 	o:=orm.NewOrm()
 	var goodsInfo models.GoodsInfo
 	goodsInfo.Id = id
@@ -121,63 +119,4 @@ func (this *UpdateController)HandleUpdate()  {
 		return
 	}
 	this.Redirect("/index",302)
-}
-
-func saveImg(this *UpdateController,fliePath string)(string,error)  {
-	file,head,err:=this.GetFile(fliePath)
-	if err!=nil{
-		beego.Error("获取图片信息失败",err)
-		return "",err
-	}
-	defer file.Close()
-	ext:=path.Ext(head.Filename)
-	//2.文件类型也需要校验
-	if ext != ".jpg" && ext != ".png" && ext != ".jpeg"{
-		beego.Error("上传图片格式不正确，请重新上传",head.Filename)
-		return "",err
-	}
-	//3.文件大小校验
-	if head.Size > 50000000 {
-		beego.Error("上传图片格式不正确，请重新上传",head.Size)
-		return "",err
-	}
-	upTime:=time.Now().Format("2006-01-02 15:04:05")
-	fileName := upTime+ext
-	this.SaveToFile(fliePath,"/home/wujiu/Desktop/"+fileName)
-	return "/home/wujiu/Desktop/"+fileName,err
-}
-
-func UpLoad(this *UpdateController,filePath string)(string)  {
-	file,head,err :=this.GetFile(filePath)
-	//校验数据
-	if err != nil{
-		beego.Error(err)
-		return ""
-	}
-	defer file.Close()
-	//1.文件存在覆盖的问题
-	//加密算法
-
-	//当前时间
-	fileName := time.Now().Format("2006-01-02-15-04-05")
-	ext := path.Ext(head.Filename)
-	beego.Info(head.Filename,ext)
-	//2.文件类型也需要校验
-	if ext != ".jpg" && ext != ".png" && ext != ".jpeg"{
-		beego.Error(err)
-		return ""
-	}
-	//3.文件大小校验
-	if head.Size > 5000000 {
-		beego.Error(err)
-		return ""
-	}
-
-	//把图片存起来
-	err=this.SaveToFile(filePath,"/root/go/src/NewService/img/goods/"+fileName+ext)
-	if err!=nil{
-		beego.Error(err)
-		return ""
-	}
-	return "https://service.shanghaiyoumeiju2018.com/img/goods/"+fileName+ext
 }
