@@ -47,10 +47,6 @@ func (this *GoodsController)HandleAddGoods()  {
 	typeName:=this.GetString("select")
 	var maps []orm.Params
 	o.Raw("select * from first_menu where name=?",typeName).Values(&maps)
-	a:=[]map[string]string{
-		{"1":"1"},
-		{"2":"2"},
-	}
 	o.Raw("INSERT INTO goods_info VALUES(null,?,?,?,?,?,0)",goodsName,maps[0]["id"],goodsImg,goodsPhoto,goodsPrice).Exec()
 	this.Redirect("/addGoods?msg=添加商品成功",302)
 }
